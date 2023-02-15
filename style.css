@@ -1,0 +1,116 @@
+.titre
+{text-align: center;}
+html
+{
+    background-color: antiquewhite;
+}
+.navbar
+{top:10px;
+    position: sticky !important;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+   margin-top: 20px;
+   margin-bottom: 20px;
+    height: 60px;
+    background: #fff;
+
+   
+
+
+}
+.cart-item  
+{
+    border-radius: 10px;
+    background-color: rgb(254, 254, 254);
+    margin: auto;
+    display: flex;
+    align-items: center;
+    padding-left: 80px;
+    justify-content: space-between;
+    width: 80%;
+}
+.boutton 
+{
+   font-size:200%;
+   display: flex;
+   gap: 80px;
+   flex-wrap: wrap;
+   align-items: center;
+   border-radius: 80px;
+   background-color:rgb(188, 245, 188) ;
+   padding: 50px;
+   
+
+}
+i
+{
+color: black;
+
+}
+i:hover
+{
+    transform: scale(1.5);
+    transition: all 1s ease-out;
+    color: rgb(17, 155, 26);
+}
+.cart-item-text
+{
+    display: flex;
+    gap:40px;
+    font-size:x-large;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+.cart-item-price  
+{
+    font-size: xx-large;
+     
+}
+.cart-item-title
+{
+    font-size: xx-large;
+ 
+}
+.article
+{display: flex;
+flex-direction: column;
+gap: 30px;
+
+}
+.item-img:hover
+{
+transition: all 1s ease-in-out;
+
+cursor: pointer;
+}
+.item-img
+{
+    width: 260px;
+    height: 200px;
+}
+.cart-total-container
+{
+display: flex;
+justify-content:flex-end;
+font-size: 30px;
+
+}
+
+.number
+{
+    border-radius: 80px 80px;
+   background-color:rgb(188, 245, 188) ;
+   padding: 50px;
+}
+.fa-regular
+{
+    color: rgb(7, 7, 7);
+}
+.myStyle
+{
+    color: red;
+    
+}
